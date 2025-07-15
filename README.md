@@ -16,6 +16,7 @@ Arch based:
   sudo pacman -Syu --noconfirm
   sudo pacman -S --noconfirm python3.13 python3.13-pip -y
 
+RHEL based:
   sudo dnf update -y
   sudo dnf install python3.13 python3.13-pip -y
 
