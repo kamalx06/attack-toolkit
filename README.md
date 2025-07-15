@@ -4,13 +4,21 @@
 Currently supported tools: nmap, ffuf, sqlmap, dalfox, wapiti, gobuster, nikto
 
 
-## Installation
+## Installation and Deployment
 
 Python3.13
-
 ```bash
+Debian based:
   sudo apt update
   sudo apt install python3.13 python3.13-pip -y
+
+Arch based:
+  sudo pacman -Syu --noconfirm
+  sudo pacman -S --noconfirm python3.13 python3.13-pip -y
+
+  sudo dnf update -y
+  sudo dnf install python3.13 python3.13-pip -y
+
 ```
 
 Requirements
