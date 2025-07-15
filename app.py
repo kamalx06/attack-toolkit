@@ -295,7 +295,7 @@ def install_dependencies():
         os.system("sudo ln -sf /opt/exploitdb/searchsploit /usr/local/bin/searchsploit")
         os.system("git clone https://github.com/sqlmapproject/sqlmap")
         os.system("git clone https://github.com/danielmiessler/SecLists")
-        os.system("pip3.13 -r req.txt")        
+        os.system("pip3.13 install -r req.txt")      
         if "AMD64" in arch:
             os.system("wget https://github.com/hahwul/dalfox/releases/download/v2.12.0/dalfox-linux-amd64.tar.gz")
             os.system("tar -xzvf dalfox-linux-amd64.tar.gz")
@@ -312,7 +312,7 @@ def install_dependencies():
         os.system("sudo ln -sf /opt/exploitdb/searchsploit /usr/local/bin/searchsploit")
         os.system("git clone https://github.com/sqlmapproject/sqlmap")
         os.system("git clone https://github.com/danielmiessler/SecLists")
-        os.system("pip3.13 -r req.txt")    
+        os.system("pip3.13 install -r req.txt")     
         if "AMD64" in arch:
             os.system("wget https://github.com/hahwul/dalfox/releases/download/v2.12.0/dalfox-linux-amd64.tar.gz")
             os.system("tar -xzvf dalfox-linux-amd64.tar.gz")
@@ -330,7 +330,7 @@ def install_dependencies():
         os.system("sudo ln -sf /opt/exploitdb/searchsploit /usr/local/bin/searchsploit")
         os.system("git clone https://github.com/sqlmapproject/sqlmap")
         os.system("git clone https://github.com/danielmiessler/SecLists")
-        os.system("pip3.13 -r req.txt")    
+        os.system("pip3.13 install -r req.txt")  
         if "AMD64" in arch:
             os.system("wget https://github.com/hahwul/dalfox/releases/download/v2.12.0/dalfox-linux-amd64.tar.gz")
             os.system("tar -xzvf dalfox-linux-amd64.tar.gz")
