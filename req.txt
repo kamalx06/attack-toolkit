@@ -1,0 +1,11 @@
+certifi==2025.7.14
+charset-normalizer==3.4.2
+distro==1.9.0
+dotenv==0.9.9
+idna==3.10
+ipaddress==1.0.23
+pyminizip==0.2.6
+python-dotenv==1.1.1
+requests==2.32.4
+urllib3==2.5.0
+validators==0.35.0
